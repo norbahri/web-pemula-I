@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Saya</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 15px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    img.profile {
+      width: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    p {
+      font-weight: 300;
+      font-size: 1rem;
+    }
+    .skills {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 15px;
+    }
+    .skill {
+      background: #222;
+      color: white;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    .contact button {
+      background: #222;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .menu {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .menu-item {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .menu img {
+      width: 100px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  
+  <div class="container" id="about">
+    <img src="/images/gambar_nazif.jpeg" alt="My Profile" class="profile">
+    <h2>Muhammad Nazif</h2>
+    <p>Hello, I am Muhammad Nazif and I am 20 years old.</p>
+    <h3>Education</h3>
+    <p>Bachelor in Computer Science, Universiti Putra Malaysia</p>
+    
+    <h3>Skills</h3>
+    <div class="skills">
+      <span class="skill">Java</span>
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+    </div>
+  </div>
+  
+  <div class="container" id="contact">
+    <h3>Contact Me</h3>
+    <button onclick="alert('Contact me at nazif8149@gmail.com')">Get in Touch</button>
+  </div>
+  
+  <div class="container">
+    <h3>Favorite Foods</h3>
+    <div class="menu">
+      <div class="menu-item">
+        <img src="/images/nasi ayam.jpg" alt="Nasi Ayam">
+        <p>Nasi Ayam</p>
+      </div>
+      <div class="menu-item">
+        <img src="/images/mee kuah.jpg" alt="Mee Kuah">
+        <p>Mee Kuah</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
